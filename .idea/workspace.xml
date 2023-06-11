@@ -5,18 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad4b9076-e6c2-46c3-b066-0ed4d0c3ab0a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ec/epn/edu/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ec/epn/edu/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ec/epn/edu/CalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ec/epn/edu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/epn/edu/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,6 +38,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
     "last_opened_file_path": "C:/Users/USUARIO/IdeaProjects/sample-calculator-git",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -45,6 +52,84 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ec.epn.edu" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ec.epn.edu.Main" />
+      <module name="ContinousIntegration_Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.epn.edu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ContinousIntegration_Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.epn.edu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.epn.edu" />
+      <option name="MAIN_CLASS_NAME" value="ec.epn.edu.CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.given_two_numbers_when_power_then_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ContinousIntegration_Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.epn.edu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.epn.edu" />
+      <option name="MAIN_CLASS_NAME" value="ec.epn.edu.CalculatorTest" />
+      <option name="METHOD_NAME" value="given_two_numbers_when_power_then_ok" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.given_two_numbers_when_root_then_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ContinousIntegration_Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ec.epn.edu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ec.epn.edu" />
+      <option name="MAIN_CLASS_NAME" value="ec.epn.edu.CalculatorTest" />
+      <option name="METHOD_NAME" value="given_two_numbers_when_root_then_ok" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.CalculatorTest.given_two_numbers_when_root_then_ok" />
+        <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="JUnit.CalculatorTest.given_two_numbers_when_power_then_ok" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,6 +139,7 @@
       <option name="presentableId" value="Default" />
       <updated>1686501829676</updated>
       <workItem from="1686501831612" duration="321000" />
+      <workItem from="1686511285584" duration="4242000" />
     </task>
     <servers />
   </component>
