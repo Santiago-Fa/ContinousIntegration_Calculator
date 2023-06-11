@@ -48,4 +48,22 @@ public class CalculatorTest {
         assertEquals(expected, actual);
     }
 
+    //Test suma
+    @Test
+    public void given_two_numbers_when_addition_then_ok() {
+        Calculator calculator = new Calculator();
+        double expected = 16;
+        double actual = calculator.addition(11, 5);
+        assertEquals(expected, actual, 0.001);
+    }
+
+    //Test mutiplicacion
+    @Test
+    public void given_two_numbers_when_multiplication_then_ok() {
+        Calculator calculator = new Calculator();
+        double expected = 20;
+        double actual = calculator.multiplication(4, 5);
+        assertEquals(expected, actual, 0.001);
+    }
+
 }

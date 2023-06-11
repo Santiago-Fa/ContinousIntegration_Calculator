@@ -19,6 +19,12 @@ public class Calculator {
             switch (op) {
                 case 1:
                     //Suma
+                    System.out.println("Ingrese el primer operando: ");
+                    op1 = scanner.nextInt();
+                    System.out.println("Ingrese el segundo operando: ");
+                    op2 = scanner.nextInt();
+                    System.out.println("");
+                    System.out.println("El resultado de la operacion es: " + addition(op1, op2));
                     break;
                 case 2:
                     //resta
@@ -30,7 +36,12 @@ public class Calculator {
                     System.out.println("El resultado de la operacion es: " + substract(op1, op2));
                     break;
                 case 3:
-                    //multi
+                    System.out.println("Ingrese el primer operando: ");
+                    op1 = scanner.nextInt();
+                    System.out.println("Ingrese el segundo operando: ");
+                    op2 = scanner.nextInt();
+                    System.out.println("");
+                    System.out.println("El resultado de la operacion es: " + multiplication(op1, op2));
                     break;
                 case 4:
                     //div
@@ -86,6 +97,16 @@ public class Calculator {
 //            throw new IllegalArgumentException("Division por cero no es valida");
 //        }
         return op1 / op2;
+    }
+
+    //Suma
+    public double addition(int op1, int op2) {
+        return op1 + op2;
+    }
+
+    //Multiplicacion
+    public double multiplication(int op1, int op2) {
+        return op1 * op2;
     }
 
 }
