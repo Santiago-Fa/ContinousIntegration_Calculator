@@ -22,12 +22,24 @@ public class Calculator {
                     break;
                 case 2:
                     //resta
+                    System.out.println("Ingrese el primer operando: ");
+                    op1 = scanner.nextInt();
+                    System.out.println("Ingrese el segundo operando: ");
+                    op2 = scanner.nextInt();
+                    System.out.println("");
+                    System.out.println("El resultado de la operacion es: " + substract(op1, op2));
                     break;
                 case 3:
                     //multi
                     break;
                 case 4:
                     //div
+                    System.out.println("Ingrese el primer operando: ");
+                    op1 = scanner.nextInt();
+                    System.out.println("Ingrese el segundo operando: ");
+                    op2 = scanner.nextInt();
+                    System.out.println("");
+                    System.out.println("El resultado de la operacion es: " + split(op1, op2));
                     break;
                 case 5:
                     System.out.println("Ingrese el primer operando: ");
@@ -64,4 +76,16 @@ public class Calculator {
     public double root(double op1, int op2) {
         return Math.pow(op1, (1.0 / op2));
     }
+
+    public int substract(int op1, int op2){
+        return op1 - op2;
+    }
+
+    public int split(int op1, int op2){
+//        if(op2 == 0){
+//            throw new IllegalArgumentException("Division por cero no es valida");
+//        }
+        return op1 / op2;
+    }
+
 }
