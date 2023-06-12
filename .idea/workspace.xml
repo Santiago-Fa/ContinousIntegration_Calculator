@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad4b9076-e6c2-46c3-b066-0ed4d0c3ab0a" name="Changes" comment="CalculatorExecute">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ad4b9076-e6c2-46c3-b066-0ed4d0c3ab0a" name="Changes" comment="Datos de la calculadora">
       <change beforePath="$PROJECT_DIR$/src/main/java/ec/epn/edu/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ec/epn/edu/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ContinousIntegration_Calculator-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/ContinousIntegration_Calculator-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ec/epn/edu/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ec/epn/edu/Calculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ec.epn.edu.CalculatorTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/ec.epn.edu.CalculatorTest.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +169,7 @@
       <workItem from="1686511285584" duration="4242000" />
       <workItem from="1686518469113" duration="2342000" />
       <workItem from="1686521846245" duration="148000" />
-      <workItem from="1686531020028" duration="2823000" />
+      <workItem from="1686531020028" duration="3720000" />
     </task>
     <task id="LOCAL-00001" summary="CalculatorExecute">
       <created>1686532431790</created>
@@ -183,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686532431790</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Datos de la calculadora">
+      <created>1686534045001</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686534045001</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +204,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CalculatorExecute" />
-    <option name="LAST_COMMIT_MESSAGE" value="CalculatorExecute" />
+    <MESSAGE value="Datos de la calculadora" />
+    <option name="LAST_COMMIT_MESSAGE" value="Datos de la calculadora" />
   </component>
 </project>

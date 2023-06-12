@@ -13,17 +13,17 @@ public class Calculator {
         System.out.println("Se ha de probar la cacluladora con los números " + op1 + " y " + op2);
 
         //Suma
-        System.out.println(op1 + " + " + op2 + " = " + addition(op1, op2));
+        System.out.println("La suma de " + op1 + " y " + op2 + " es " + addition(op1, op2));
         //Resta
-        System.out.println(op1 + " - " + op2 + " = " + substract(op1, op2));
+        System.out.println("La resta de " + op1 + " y " + op2 + " es " + substract(op1, op2));
         //Multiplicación
-        System.out.println(op1 + " * " + op2 + " = " + multiplication(op1, op2));
+        System.out.println("La multiplicacion de " + op1 + " y " + op2 + " es " + multiplication(op1, op2));
         //División
-        System.out.println(op1 + " / " + op2 + " = " + split(op1, op2));
+        System.out.println("La división de " + op1 + " y " + op2 + " es " + split(op1, op2));
         //Potenciación
-        System.out.println(op1 + " ^ " + op2 + " = " + power(op1, op2));
+        System.out.println(op1 + " elevado a  " + op2 + " es " + power(op1, op2));
         //Radicación
-        System.out.println(op1 + " root " + op2 + " = " + root(op1, op2));
+        System.out.println("La raiz en base " + op2 + " de " + op1+ " es " + root(op1, op2));
 
     }
 
