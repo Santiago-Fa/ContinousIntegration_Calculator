@@ -1,82 +1,32 @@
 package ec.epn.edu;
 
-import java.util.Scanner;
-
 public class Calculator {
     public Calculator() {
     }
 
     public void displayMenu() {
-        Scanner scanner = new Scanner(System.in);
-        int op = 0;
-        int op1 = 0;
-        int op2 = 0;
-        do {
-            System.out.println("\t****Calculadora****");
-            System.out.println("1. Suma\n2. Resta\n3. Multiplicacion\n4. Division\n5. Potenciacion\n6. Radicacion\n7. Salir");
-            System.out.println("\tEscoja la operacion a utilizar:");
-            op = scanner.nextInt();
-            switch (op) {
-                case 1:
-                    //Suma
-                    System.out.println("Ingrese el primer operando: ");
-                    op1 = scanner.nextInt();
-                    System.out.println("Ingrese el segundo operando: ");
-                    op2 = scanner.nextInt();
-                    System.out.println("");
-                    System.out.println("El resultado de la operacion es: " + addition(op1, op2));
-                    break;
-                case 2:
-                    //resta
-                    System.out.println("Ingrese el primer operando: ");
-                    op1 = scanner.nextInt();
-                    System.out.println("Ingrese el segundo operando: ");
-                    op2 = scanner.nextInt();
-                    System.out.println("");
-                    System.out.println("El resultado de la operacion es: " + substract(op1, op2));
-                    break;
-                case 3:
-                    System.out.println("Ingrese el primer operando: ");
-                    op1 = scanner.nextInt();
-                    System.out.println("Ingrese el segundo operando: ");
-                    op2 = scanner.nextInt();
-                    System.out.println("");
-                    System.out.println("El resultado de la operacion es: " + multiplication(op1, op2));
-                    break;
-                case 4:
-                    //div
-                    System.out.println("Ingrese el primer operando: ");
-                    op1 = scanner.nextInt();
-                    System.out.println("Ingrese el segundo operando: ");
-                    op2 = scanner.nextInt();
-                    System.out.println("");
-                    System.out.println("El resultado de la operacion es: " + split(op1, op2));
-                    break;
-                case 5:
-                    System.out.println("Ingrese el primer operando: ");
-                    op1 = scanner.nextInt();
-                    System.out.println("Ingrese el segundo operando: ");
-                    op2 = scanner.nextInt();
-                    System.out.println("");
-                    System.out.println("El resultado de la operacion es: " + String.valueOf(power(op1, op2)));
-                    break;
-                case 6:
-                    System.out.println("Ingrese el primer operando: ");
-                    op1 = scanner.nextInt();
-                    System.out.println("Ingrese el segundo operando: ");
-                    op2 = scanner.nextInt();
-                    System.out.println("");
-                    System.out.println("El resultado de la operacion es: " + String.valueOf(root(op1, op2)));
-                    break;
-                case 7:
-                    System.out.println("Saliendo del sistema...");
-                    break;
-                default:
-                    System.out.println("Eleccion no reconocida, vuelva a intentar...");
-                    break;
-            }
-        } while (op != 7);
+
+        int op1 = 9;
+        int op2 = 3;
+
+        System.out.println("\t****Calculadora****");
+        System.out.println("Se ha de probar la cacluladora con los números " + op1 + " y " + op2);
+
+        //Suma
+        System.out.println(op1 + " + " + op2 + " = " + addition(op1, op2));
+        //Resta
+        System.out.println(op1 + " - " + op2 + " = " + substract(op1, op2));
+        //Multiplicación
+        System.out.println(op1 + " * " + op2 + " = " + multiplication(op1, op2));
+        //División
+        System.out.println(op1 + " / " + op2 + " = " + split(op1, op2));
+        //Potenciación
+        System.out.println(op1 + " ^ " + op2 + " = " + power(op1, op2));
+        //Radicación
+        System.out.println(op1 + " root " + op2 + " = " + root(op1, op2));
+
     }
+
 
     //Potenciacion
     public int power(int op1, int op2) {
@@ -88,11 +38,11 @@ public class Calculator {
         return Math.pow(op1, (1.0 / op2));
     }
 
-    public int substract(int op1, int op2){
+    public int substract(int op1, int op2) {
         return op1 - op2;
     }
 
-    public int split(int op1, int op2){
+    public int split(int op1, int op2) {
 //        if(op2 == 0){
 //            throw new IllegalArgumentException("Division por cero no es valida");
 //        }
